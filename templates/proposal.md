@@ -1,18 +1,15 @@
 #  Title 
+Tools for Quantum State Distinguishability and Exclusion
 
 ## Abstract
 
-Short description of your project. Max 10 sentences. This **SHOULD NOT** be a
-copy of the project idea text.
+My project focuses on enhancing the is_separable function in the toqito library, starting with constructive checks for the separability of low-rank density matrices. In addition to strengthening separability detection, I plan to implement a new feature for the computation of k-incoherence, a property closely related to k-entanglement, which has applications in quantifying coherence and entanglement hierarchies. This will open up new avenues for analyzing quantum resources within the framework. My work will support broader state discrimination and exclusion tasks, particularly under separable measurement constraints. Over time, I also aim to extend functionality to non-bipartite systems, making the tools more general and powerful.
 
 ## Technical Details
 
-Long description of the project. **Must** include all technical details of the
-projects like libraries involved.
+Regarding the separability of low-rank density matrices: this refers to the implementation of the paper "Operational criterion and constructive checks for the separability of low-rank density matrices." by P. Horodecki et al. Giving sufficient criteria for PPT states when RANK(rho)+RANK(rho^TA) ≤ 2M N − M − N + 2.
 
-Here it is important to show if you had previous conversations with your
-mentors. You can show relevant pieces of code that you want to change. You can
-link to literature you used during the research.
+Regarding the k-incoherence: This would be implementation of https://arxiv.org/pdf/2205.05110 and https://arxiv.org/abs/2311.17047. 
 
 ## Schedule of Deliverables
 
@@ -33,11 +30,15 @@ sure your blog works and send us the link.
 
 ### **Phase 1**
 
-Deliverables
+Implement k-incoherence.
 
 ### **Phase 2**
 
-Deliverables
+Implement separability of of low-ranks.
+
+### **Phase 3**
+
+Add more functions of QETLAB and extend functionality to non-bipartite systems.
 
 ### **Final Week**
 
@@ -51,11 +52,11 @@ Do you have code on github? Can you show previous contributions to other project
 Did you do other code related projects or university courses?
 
 ## Other Experiences
-
+I study Quantum Information Science in Copenhagen. I have won 2 Quantum Hackthon (out of the two I have participated in if I may say). I'm currently working together with Anna Sanpera to publish our work on a "Two-dimensional electro-mechanical Quantum Dot Quantum Simulator"
 
 ## Why this project?
 
-Why you want to do this project?
+Ever since I was confronted with the separability problem in Anna's group I've been fascinated by it and decided to do my master because of it.
 
 ## Appendix
 
